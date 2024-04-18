@@ -21,6 +21,7 @@ def analisis_estadisticos(data_frame):
         
         # Crea el diccionario de salida con las claves y valores calculados
         estadisticas = {
+            'fi': data_frame['fi'].tolist(),
             'Fi': data_frame['Fi'].tolist(),
             'ri': data_frame["ri"].tolist(),
             'Ri': data_frame['Ri'].tolist(),
