@@ -36,6 +36,3 @@ def analisis_estadisticos(data_frame):
     
 resolve = analisis_estadisticos(data_frame)
 print(resolve)
-
-# for key, value in resolve.items():
-#         print(f"{key}:{value}")
