@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 
 data_frame = pd.read_csv("edades.csv", delimiter=",") 
